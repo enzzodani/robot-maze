@@ -51,8 +51,8 @@ Usar branchs permite que cada nova funcionalidade, correção de bug ou ajuste s
    - Se a branch `main` receber novas alterações durante o desenvolvimento, faça merge da `main` na sua branch local para manter seu código atualizado:
    
    ```bash
-   git fetch origin
-   git merge origin/main
+   git checkout nome-da-branch-que-voce-esta-trabalhando #esse comando é para garantir que você esta na branch correta
+   git merge main
    ```
 
 6. **Após Aprovação, Faça Merge para `main`**
