@@ -34,3 +34,8 @@ Após a compilação, execute o programa com:
 
 Para detalhes completos de implementação e design, consulte a documentação:
 - **[Docmentação Geral](docs/doc_geral.md)** 
+
+## Contribuição 
+
+Contribuições são bem-vindas! Por favor, veja as [Diretrizes de Contribuição](docs/contribution.md) para mais informações.
+
