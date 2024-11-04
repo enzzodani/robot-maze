@@ -7,4 +7,12 @@ typedef struct mazeNode {
     mazeNode* north,south,west,east; //Vizinhos
 } mazeNode;
 
+mazeNode* createNode(int x, int y, int type);
+mazeNode* initMaze(int lines, int columns);
+void linkNodes();
+int isObstacle(MazeNode* node);
+void freeMaze();
+void insertStart(Node *newNode, List *list);
+void insertEnd(Node *newNode, List *list);
+
 #endif // MAZE_H
